@@ -1,0 +1,16 @@
+//  Порядок импорта имеет значение. Если файл зависит от значения, объявленного в др. файле, то оно д.б. ниже файла от кот. оно зависит.
+
+// variables & functions
+@import 'variables';
+
+// base & layout
+@import 'base';
+
+// colors
+@import 'colors';
+
+// components (btns, card, navbar)
+@import 'components/card';
+@import 'components/button';
+
+// utilities (margin, padding, opacity)
